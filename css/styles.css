@@ -1,9 +1,11 @@
-/* GLOBAL */
+/* Custom props */
 :root {
+  --primary-color: #EA625C;
   --accent-color: #777;
   --font-color: #888;
 }
 
+/* GLOBAL */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -24,7 +26,7 @@ body {
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   background-color: #fff;
   color: #777;
 }
@@ -66,10 +68,11 @@ ul {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1250px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
+  max-width: 1100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -91,4 +94,8 @@ ul {
 .sitenav-item {
   margin: 0;
   /* line-height: 22.5; */
+}
+
+.sitenav-item-last {
+  color: #666;
 }
